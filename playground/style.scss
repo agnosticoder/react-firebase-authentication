@@ -1,0 +1,34 @@
+$dark-grey: #333;
+$light-grey: #eee;
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    color: $dark-grey;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.contextApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.dark{
+    background-color: $dark-grey;
+    color: $light-grey;
+}
+
+.light{
+    background-color: $light-grey;
+}
